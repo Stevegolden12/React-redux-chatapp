@@ -1,27 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import SidebarComponent from '../components/Sidebar';
 
-const MessagesList = ({ messages }) => (
-  <section id="messages-list">
-    <ul>
-      {messages.map(message => (
-        <messages
-          key={message.id}
-          {...message}
-          />
-      ))}
-    </ul>
-  </section>
-)
 
-MessagesList.PropTypes = {
-  messages: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      message: PropTypes.string.isRequired,
-      author: PropTypes.string.isRequired
-    }).isRequired
-  ).isRequired
-}
-
-export default MessagesList
+export const MessagesLists = connect(state => ({
+  users: state.users
+}), {})(SidebarComponent)
