@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
-import SidebarComponent from '../components/Sidebar';
+import MessagesListComponent from '../components/MessagesList';
 
 
-export const MessagesLists = connect(state => ({
+export const MessagesList = connect(state => ({
   users: state.users
-}), {})(SidebarComponent)
+}), {})(MessagesListComponent)
