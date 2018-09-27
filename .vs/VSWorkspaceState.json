@@ -3,10 +3,11 @@
     "",
     "\\src",
     "\\src\\actions",
+    "\\src\\components",
     "\\src\\constants",
     "\\src\\containers",
     "\\src\\reducers"
   ],
-  "SelectedNode": "\\src\\containers\\MessagesList.js",
+  "SelectedNode": "\\src\\containers\\Sidebar.js",
   "PreviewInSolutionExplorer": false
 }
