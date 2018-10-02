@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Server",
     "\\src",
     "\\src\\actions",
     "\\src\\components",
     "\\src\\constants",
     "\\src\\containers",
-    "\\src\\reducers"
+    "\\src\\reducers",
+    "\\src\\sockets"
   ],
-  "SelectedNode": "\\src\\components\\Sidebar.js",
+  "SelectedNode": "\\src\\index.js",
   "PreviewInSolutionExplorer": false
 }
