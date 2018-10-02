@@ -1,4 +1,4 @@
-import * types from '../constants/ActionTypes';
+import * as types from '../constants/ActionTypes';
 import {addUser, messageReceived, populateUsersList} from '../actions';
 
 /* Opens up the socket connection */
