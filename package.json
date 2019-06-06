@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "chance": "^1.0.18",
+    "handlebars": "^4.0.14",
+    "js-yaml": "^3.13.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^5.1.1",
